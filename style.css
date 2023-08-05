@@ -13,6 +13,10 @@ body {
     background-color: rgba(0, 0, 0, 0.735);
 }
 
+.container-button {
+    padding: 5px;
+    background-color: green;
+}
 .container-button button {
    border: solid 2px green;
    border-radius: 10px;
@@ -21,13 +25,13 @@ body {
    background-color: white;
    transition: background-color .3s ease;
    transition: color .3s ease;
-   box-shadow: 0 5px rgba(0, 0, 0, .1);
+   
 }
 
 .container-button button:hover {
     background-color: green;
     border: none;
     color: white;
-    box-shadow: 0 5px rgba(0, 0, 0, .1);
+    
 }
 
